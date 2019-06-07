@@ -61,7 +61,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>src.java.hello.HomeController</mainClass>
+                    <mainClass>src.java.main.HomeController</mainClass>
                     <arguments>
                         <argument>foo</argument>
                         <argument>bar</argument>
