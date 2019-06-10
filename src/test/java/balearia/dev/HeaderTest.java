@@ -22,5 +22,8 @@ public class HeaderTest extends Common {
         driver.findElement(By.id("check-availability-portlet-autocomplete-autocompleteContent")).click();
         driver.findElement(By.id("check-availability-portlet-autocomplete-autocompleteContent")).sendKeys("hola");
         driver.findElement(By.id("check-availability-portlet-autocomplete-autocompleteContent")).sendKeys(Keys.ENTER);
+
+        System.out.println(driver.getTitle());
     }
 }
+

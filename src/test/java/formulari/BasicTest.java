@@ -1,3 +1,4 @@
+/*
 package formulari;
 
 import org.junit.Test;
@@ -25,5 +26,10 @@ public class BasicTest extends Common {
                 "accumsan eu lacus. Integer a urna sit amet diam scelerisque tempor. Fusce eget sapien sit amet lacus " +
                 "laoreet tincidunt.");
         driver.findElement(By.cssSelector("button")).click();
+
+        System.out.println(driver.getTitle());
+
     }
 }
+
+*/
