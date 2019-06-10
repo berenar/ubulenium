@@ -2,10 +2,7 @@ package all;
 
 import org.junit.After;
 import org.junit.Before;
-import org.openqa.selenium.Capabilities;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.UnexpectedAlertBehaviour;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.CapabilityType;
@@ -32,7 +29,7 @@ public class Common {
         driver = new ChromeDriver();*/
 
         //Remote
-        Capabilities chromeCapabilities = DesiredCapabilities.chrome();
+        DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
         driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeCapabilities);
 
         //FireFox
@@ -50,7 +47,7 @@ public class Common {
 
     @After
     public void tearDown() {
-        //driver.quit();
+        driver.quit();
     }
 
 }
