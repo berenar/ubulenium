@@ -3,6 +3,7 @@
     <words>
       <w>chromedriver</w>
       <w>geckodriver</w>
+      <w>powershell</w>
     </words>
   </dictionary>
 </component>

@@ -10,14 +10,13 @@ if ($Running -eq $null)
     Write-Output "Docker started"
 }
 
-#Get mapped folders
-$downloads = "${pwd}/src/main/resources/static/docker/mapped/Downloads"
-$desktop = "${pwd}/src/main/resources/static/docker/mapped/Desktop"
-$downloads
-$desktop
+#Get mapped folders (-v option)
+$down_path="$(pwd)\src\main\resources\static\docker\mapped\Downloads:/home/user/Downloads"
+$desk_path="$(pwd)\src\main\resources\static\docker\mapped\Desktop:/home/user/Desktop"
 
 #Run container if it's not running
+#It will pull itself it's not locally available
 If (-Not(docker ps | findstr "bernattt/ubuntubernat"))
 {
-    docker run --rm --privileged -p 6080:80 --name ubuntubernat -v ${downloads}:/home/user/Downloads -v ${desktop}:/home/user/Desktop bernattt/ubuntubernat
+    docker run --rm --privileged -p 6080:80 --name ubuntubernat -v $down_path -v $desk_path bernattt/ubuntubernat
 }
