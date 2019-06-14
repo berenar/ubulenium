@@ -1,0 +1,54 @@
+#################################################
+# 				Build the image					#
+#################################################
+
+# Get base image
+docker run --privileged -p 6080:80 `
+-e USER=user -e PASSWORD=password `
+-e RESOLUTION=1600x800 `
+--name ubuntu-chromium-vnc `
+dorowu/ubuntu-desktop-lxde-vnc
+
+# Make changes to it
+# (...)
+
+# Commit changes
+docker commit <ID> ubuntubernat
+
+# Push changes if needed
+docker push bernattt/ubuntubernat
+
+# Save snapshot in a new image
+docker save -o C:\Users\bernat.pericas\Desktop\ubuntubernat ubuntu2
+
+
+
+
+#################################################
+# 				Get the image					#
+#################################################
+
+# Locally
+
+docker load -i  C:\Users\bernat.pericas\Desktop\ubuntubernat
+
+docker run --privileged -p 6080:80 `
+--name ubuntubernat `
+-v C:\Users\$env:username\Downloads:/home/user/Downloads `
+-v C:\Users\$env:username\Desktop:/home/user/Desktop `
+ubuntu2
+
+
+# From dockerHub
+
+docker run --privileged -p 6080:80 `
+--name ubuntubernat `
+-v C:\Users\$env:username\Downloads:/home/user/Downloads `
+-v C:\Users\$env:username\Desktop:/home/user/Desktop `
+bernattt/ubuntubernat
+
+
+If(-Not(docker ps | findstr "bernattt/ubuntubernat")){
+docker run --rm --privileged -p 6080:80 --name ubuntubernat -v C:\Users\$env:username\Downloads:/home/user/Downloads -v C:\Users\$env:username\Desktop:/home/user/Desktop bernattt/ubuntubernat
+}
+//TODO: canviar a docker/mapped (ubuntu container)/Desktop i Downloads
