@@ -1,4 +1,4 @@
-/*
+
 package all;
 
 import org.junit.After;
@@ -22,28 +22,26 @@ public class Common {
 
     @Before
     public void setUp() throws MalformedURLException {
-        //Chrome
+        //-------------Chrome-------------//
 
-      //Local
-        String driverPath = System.getProperty("user.dir") + "\\seleniumDrivers\\chromedriver.exe";
+        //Local
+/*        String driverPath = System.getProperty("user.dir") + "\\selenium\\src\\main\\resources\\static\\selenium\\drivers\\chromedriver.exe";
+        System.out.println(driverPath);
         System.setProperty("webdriver.chrome.driver", driverPath);
-        driver = new ChromeDriver();
+        driver = new ChromeDriver();*/
 
         //Remote
-*/
-/*        DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
-        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeCapabilities);*//*
+        DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
+        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeCapabilities);
 
 
-        //FireFox
-        */
-/*
+        //-------------FireFox-------------//
         //Local
-        String driverPath = System.getProperty("user.dir") + "\\seleniumDrivers\\geckodriver.exe";
+/*        String driverPath = System.getProperty("user.dir") + "\\selenium\\src\\main\\resources\\static\\selenium\\drivers\\geckodriver.exe";
         System.setProperty("webdriver.gecko.driver", driverPath);
         FirefoxOptions options = new FirefoxOptions();
         options.setCapability("marionette", false);
-        driver = new FirefoxDriver(options);*//*
+        driver = new FirefoxDriver(options);*/
 
 
         js = (JavascriptExecutor) driver;
@@ -56,4 +54,4 @@ public class Common {
     }
 
 }
-*/
+

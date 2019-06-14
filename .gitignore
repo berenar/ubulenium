@@ -1,1 +1,3 @@
 target/
+src/main/resources/static/docker/mapped/Desktop/*
+src/main/resources/static/docker/mapped/Downloads/*
