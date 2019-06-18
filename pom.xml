@@ -79,7 +79,7 @@
                         <configuration>
                             <executable>powershell</executable>
                             <arguments>
-                                <argument>${basedir}/src/main/resources/static/docker/prepareDocker.ps1</argument>
+                                <argument>${basedir}/src/main/resources/static/docker/prepareDocker.ps1;</argument>
                             </arguments>
                         </configuration>
                     </execution>

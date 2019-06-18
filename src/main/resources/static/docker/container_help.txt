@@ -13,7 +13,8 @@ dorowu/ubuntu-desktop-lxde-vnc
 # (...)
 
 # Commit changes
-docker commit <ID> ubuntubernat
+docker commit <CONTAINER ID> ubuntubernat
+#CONTAINER ID is not the same as the IMAGE ID
 
 # Push changes if needed
 docker push bernattt/ubuntubernat
@@ -32,7 +33,8 @@ docker save -o C:\Users\bernat.pericas\Desktop\ubuntubernat ubuntu2
 
 docker load -i  C:\Users\bernat.pericas\Desktop\ubuntubernat
 
-docker run --privileged -p 6080:80 `
+docker run --privileged -p 6080:80 -p 6081:4444 `
+--privileged `
 --name ubuntubernat `
 -v C:\Users\$env:username\Downloads:/home/user/Downloads `
 -v C:\Users\$env:username\Desktop:/home/user/Desktop `
@@ -49,6 +51,6 @@ bernattt/ubuntubernat
 
 
 If(-Not(docker ps | findstr "bernattt/ubuntubernat")){
-docker run --rm --privileged -p 6080:80 --name ubuntubernat -v C:\Users\$env:username\Downloads:/home/user/Downloads -v C:\Users\$env:username\Desktop:/home/user/Desktop bernattt/ubuntubernat
+docker run --privileged -p 6080:80 -p 6081:4444 --name ubuntubernat -v C:\Users\$env:username\Downloads:/home/user/Downloads -v C:\Users\$env:username\Desktop:/home/user/Desktop bernattt/ubuntubernat
 }
 //TODO: canviar a docker/mapped (ubuntu container)/Desktop i Downloads
