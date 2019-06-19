@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="">
+    <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="prepareDocker.ps1 fixed args[x]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/all/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/all/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="84" column="24" lean-forward="true" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+            <state relative-caret-position="517">
+              <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -104,6 +101,9 @@
       <find>ubuntu</find>
       <find>bernat</find>
       <find>docker</find>
+      <find>v1</find>
+      <find>startnode</find>
+      <find>startselenium</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -524,7 +524,7 @@
       <workItem from="1560496304747" duration="10904000" />
       <workItem from="1560755063726" duration="8846000" />
       <workItem from="1560841408824" duration="11002000" />
-      <workItem from="1560927907521" duration="12065000" />
+      <workItem from="1560927907521" duration="13470000" />
     </task>
     <task id="LOCAL-00001" summary="Common class created for common test code&#10;Browser drivers in a project folder (seleniumDrivers)">
       <created>1559898307691</created>
@@ -575,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560930510395</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="prepareDocker.ps1 fixed args[x]">
+      <created>1560942419781</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560942419781</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -611,7 +618,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96660000" />
+    <option name="totallyTimeSpent" value="98065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -635,8 +642,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8107676" visible="true" weight="0.42872456" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.81023455" visible="true" weight="0.25830653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -644,7 +651,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290461" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.18923241" side_tool="true" visible="true" weight="0.42872456" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.18976545" side_tool="true" visible="true" weight="0.25830653" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3290461" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3290461" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -747,7 +754,8 @@
     <MESSAGE value="added README.md&#10;prepareDocker.ps1 now also starts selenium server once the container is &#10;running" />
     <MESSAGE value="prepareDocker.ps1 runs docker if it's not running, when it has finished &#10;booting up, boots up the container, when it has finished setting up the &#10;container, starts Selenium server" />
     <MESSAGE value="prepareDocker.ps1 fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepareDocker.ps1 fixed" />
+    <MESSAGE value="prepareDocker.ps1 fixed args[x]" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepareDocker.ps1 fixed args[x]" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Example" />
@@ -881,8 +889,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="84" column="24" lean-forward="true" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+        <state relative-caret-position="517">
+          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -38,10 +38,10 @@ echo "Docker is ready"
 #Open the servers localhosts
 function openwebsites
 {
-    start http://localhost:6080 #NVC
-    start http://localhost:6081 #Selenium
+    start http://localhost:6080/ #NVC
+    start http://localhost:6081/grid/console #Selenium
 }
-#Runs a command inside the container that starts the Selenium server
+#Runs a command inside the container that starts the Selenium server (http://localhost:6081/)
 function startselenium
 {
     Start-Job -Name selenium_job -ScriptBlock {
@@ -49,9 +49,12 @@ function startselenium
     }
 }
 
+#Starts a node in the selenium hub (http://localhost:6081/grid/console)
 function startnode
 {
-    docker exec ubulenium java "-Dwebdriver.chrome.driver=/home/user/Selenium/chromedriver_linux64.zip" "-Dwebdriver.gecko.driver=/home/user/Selenium/geckodriver-v0.24.0-linux64.tar.gz" -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar -role node -hub "http://localhost:4444/grid/register"
+    Start-Job -Name selenium_job -ScriptBlock {
+        docker exec ubulenium java "-Dwebdriver.chrome.driver=/home/user/Selenium/chromedriver_linux64.zip" "-Dwebdriver.gecko.driver=/home/user/Selenium/geckodriver-v0.24.0-linux64.tar.gz" -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar -role node -hub "http://localhost:4444/grid/register"
+    }
 }
 
 if (docker ps | findstr "ubulenium")
@@ -66,6 +69,8 @@ elseif (docker ps -all | findstr "ubulenium")
     echo "Container started"
     #Start Selenium Server
     startselenium
+    #Create a node
+    startnode
 }
 else
 {
@@ -73,15 +78,14 @@ else
     #It will pull itself if it's not locally available
 
     #Get mapped folders paths (-v option)
-    $down_path="$(pwd)\src\main\resources\static\docker\mapped\Downloads:/home/user/Downloads"
-    $desk_path="$(pwd)\src\main\resources\static\docker\mapped\Desktop:/home/user/Desktop"
-    echo $down_path
-    echo $desk_path
+    $down_path = "$( pwd )\src\main\resources\static\docker\mapped\Downloads:/home/user/Downloads"
+    $desk_path = "$( pwd )\src\main\resources\static\docker\mapped\Desktop:/home/user/Desktop"
+    $sele_path = "$( pwd )\src\main\resources\static\docker\mapped\Selenium:/home/user/Selenium"
 
     #Run ubuntu container
     Start-Job -Name run_job -ScriptBlock {
-        docker run --privileged -p 6080:80 -p 6081:4444 -v $args[0] -v $args[1] --name ubulenium bernattt/ubuntu-selenium:v1
-    } -ArgumentList @($down_path, $desk_path);
+        docker run --privileged -p 6080:80 -p 6081:4444 -v $args[0] -v $args[1] -v $args[2] --name ubulenium bernattt/ubuntu-selenium:v1
+    } -ArgumentList @($down_path, $desk_path, $sele_path);
     #'docker run' output
     $run_output = Receive-Job -Name run_job 6>&1;
     #Wait until output of 'docker run' command says success (container started)
@@ -94,4 +98,6 @@ else
     echo "Container started from the image"
     #Start Selenium Server
     startselenium
+    #Create a node
+    startnode
 }
