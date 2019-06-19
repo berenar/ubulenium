@@ -1,14 +1,17 @@
 
 package all;
 
+import com.sun.jndi.toolkit.url.Uri;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.remote.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -19,9 +22,11 @@ public class Common {
     public WebDriver driver;
     public Map<String, Object> vars;
     JavascriptExecutor js;
+    String remoteUrl = "http://localhost:6081/wd/hub";
 
     @Before
     public void setUp() throws MalformedURLException {
+
         //-------------Chrome-------------//
 
         //Local
@@ -31,8 +36,8 @@ public class Common {
         driver = new ChromeDriver();*/
 
         //Remote
-        DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
-        driver = new RemoteWebDriver(new URL("http://localhost:6081/wd/hub"), chromeCapabilities);
+/*        DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
+        driver = new RemoteWebDriver(new URL(remoteUrl), chromeCapabilities);*/
 
 
         //-------------FireFox-------------//
@@ -43,7 +48,11 @@ public class Common {
         options.setCapability("marionette", false);
         driver = new FirefoxDriver(options);*/
 
+        //Remote
+        DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+        driver = new RemoteWebDriver(new URL(remoteUrl), capabilities);
 
+        //All
         js = (JavascriptExecutor) driver;
         vars = new HashMap<>();
     }
