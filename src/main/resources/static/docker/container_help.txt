@@ -13,14 +13,14 @@ dorowu/ubuntu-desktop-lxde-vnc
 # (...)
 
 # Commit changes
-docker commit <CONTAINER ID> ubuntubernat
-#CONTAINER ID is not the same as the IMAGE ID
+docker commit <CONTAINER ID> <NAME>:<TAG>
+#CONTAINER ID is not the same as the IMAGE ID!
 
 # Push changes if needed
-docker push bernattt/ubuntubernat
+docker push <USER>/<REPOSITORY>
 
 # Save snapshot in a new image
-docker save -o C:\Users\bernat.pericas\Desktop\ubuntubernat ubuntu2
+docker save -o C:\Users\bernat.pericas\Desktop\<NAME> ubuntu2
 
 
 

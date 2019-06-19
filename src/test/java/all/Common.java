@@ -32,7 +32,7 @@ public class Common {
 
         //Remote
         DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
-        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeCapabilities);
+        driver = new RemoteWebDriver(new URL("http://localhost:6081/wd/hub"), chromeCapabilities);
 
 
         //-------------FireFox-------------//

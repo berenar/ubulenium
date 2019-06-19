@@ -44,21 +44,26 @@ function openwebsites
 #Runs a command inside the container that starts the Selenium server
 function startselenium
 {
-    docker exec ubuntubernat java -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar -role hub;
+    Start-Job -Name selenium_job -ScriptBlock {
+        docker exec ubulenium java -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar -role hub;
+    }
 }
 
-if (docker ps | findstr "ubuntubernat")
+function startnode
+{
+    docker exec ubulenium java "-Dwebdriver.chrome.driver=/home/user/Selenium/chromedriver_linux64.zip" "-Dwebdriver.gecko.driver=/home/user/Selenium/geckodriver-v0.24.0-linux64.tar.gz" -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar -role node -hub "http://localhost:4444/grid/register"
+}
+
+if (docker ps | findstr "ubulenium")
 {
     #Container is already running
     echo "Container already running"
-    openwebsites
 }
-elseif (docker ps -all | findstr "ubuntubernat")
+elseif (docker ps -all | findstr "ubulenium")
 {
     #Container already exists but it's not running
-    docker start ubuntubernat
+    docker start ubulenium
     echo "Container started"
-    openwebsites
     #Start Selenium Server
     startselenium
 }
@@ -68,12 +73,14 @@ else
     #It will pull itself if it's not locally available
 
     #Get mapped folders paths (-v option)
-    $down_path = "$( pwd )\src\main\resources\static\docker\mapped\Downloads:/home/user/Downloads"
-    $desk_path = "$( pwd )\src\main\resources\static\docker\mapped\Desktop:/home/user/Desktop"
+    $down_path="$(pwd)\src\main\resources\static\docker\mapped\Downloads:/home/user/Downloads"
+    $desk_path="$(pwd)\src\main\resources\static\docker\mapped\Desktop:/home/user/Desktop"
+    echo $down_path
+    echo $desk_path
 
     #Run ubuntu container
     Start-Job -Name run_job -ScriptBlock {
-        docker run --privileged -p 6080:80 -p 6081:4444 --name ubuntubernat -v $args[0] -v $args[1] bernattt/ubuntubernat:v1
+        docker run --privileged -p 6080:80 -p 6081:4444 -v $args[0] -v $args[1] --name ubulenium bernattt/ubuntu-selenium:v1
     } -ArgumentList @($down_path, $desk_path);
     #'docker run' output
     $run_output = Receive-Job -Name run_job 6>&1;
@@ -83,8 +90,8 @@ else
         Start-Sleep -s 2;
         $run_output = Receive-Job -Name run_job 6>&1;
     }
+
     echo "Container started from the image"
-    openwebsites
     #Start Selenium Server
     startselenium
 }

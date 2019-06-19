@@ -1,4 +1,4 @@
-/*
+
 package balearia.dev;
 
 import all.Common;
@@ -28,4 +28,4 @@ public class HeaderTest extends Common {
     }
 }
 
-*/
+
