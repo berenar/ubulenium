@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="prepareDocker.ps1 fixed args[x]">
+    <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/all/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/all/Common.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="255">
+              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -41,17 +42,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
+            <state relative-caret-position="1309">
               <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+            <state relative-caret-position="420">
+              <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -59,11 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/all/Common.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="561">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -71,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="136">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,9 +154,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/all/Common.java" />
         <option value="$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/all/Common.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" />
       </list>
     </option>
@@ -200,6 +198,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -357,7 +356,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,7 +408,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.record">
+  <component name="RunManager" selected="JUnit.HeaderTest">
     <configuration name="HomeController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.HomeController" />
       <module name="sel" />
@@ -490,9 +488,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeaderTest" />
         <item itemvalue="Application.record" />
         <item itemvalue="Application.SeleniumTesting" />
-        <item itemvalue="JUnit.HeaderTest" />
         <item itemvalue="JUnit.BasicTest" />
         <item itemvalue="Application.HomeController" />
       </list>
@@ -524,7 +522,8 @@
       <workItem from="1560496304747" duration="10904000" />
       <workItem from="1560755063726" duration="8846000" />
       <workItem from="1560841408824" duration="11002000" />
-      <workItem from="1560927907521" duration="13470000" />
+      <workItem from="1560927907521" duration="15435000" />
+      <workItem from="1561010792947" duration="1609000" />
     </task>
     <task id="LOCAL-00001" summary="Common class created for common test code&#10;Browser drivers in a project folder (seleniumDrivers)">
       <created>1559898307691</created>
@@ -582,43 +581,50 @@
       <option name="project" value="LOCAL" />
       <updated>1560942419781</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="prepareDocker.ps1: starts selenium server and node but tests fail to run there">
+      <created>1560943719609</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560943719609</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="basicTest - 2019.06.07 at 10h 03m 23s.xml">
-      <configuration name="basicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="basicTest - 2019.06.07 at 10h 17m 17s.xml">
-      <configuration name="basicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="basicTest - 2019.06.07 at 10h 20m 24s.xml">
-      <configuration name="basicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="basicTest - 2019.06.07 at 10h 53m 26s.xml">
-      <configuration name="basicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BasicTest - 2019.06.07 at 10h 58m 16s.xml">
-      <configuration name="BasicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BasicTest - 2019.06.07 at 10h 58m 44s.xml">
-      <configuration name="BasicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BasicTest - 2019.06.07 at 10h 59m 30s.xml">
-      <configuration name="BasicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BasicTest - 2019.06.07 at 10h 59m 53s.xml">
-      <configuration name="BasicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BasicTest - 2019.06.07 at 11h 01m 07s.xml">
-      <configuration name="BasicTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HeaderTest - 2019.06.07 at 11h 56m 53s.xml">
+      <configuration name="HeaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeaderTest - 2019.06.19 at 13h 31m 45s.xml">
+      <configuration name="HeaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeaderTest - 2019.06.19 at 13h 39m 29s.xml">
+      <configuration name="HeaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeaderTest - 2019.06.19 at 13h 40m 34s.xml">
+      <configuration name="HeaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeaderTest - 2019.06.19 at 13h 42m 13s.xml">
+      <configuration name="HeaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeaderTest - 2019.06.19 at 13h 44m 34s.xml">
+      <configuration name="HeaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeaderTest - 2019.06.19 at 13h 47m 34s.xml">
+      <configuration name="HeaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeaderTest - 2019.06.19 at 13h 49m 12s.xml">
+      <configuration name="HeaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeaderTest - 2019.06.19 at 13h 49m 23s.xml">
+      <configuration name="HeaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeaderTest - 2019.06.19 at 13h 51m 43s.xml">
       <configuration name="HeaderTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98065000" />
+    <option name="totallyTimeSpent" value="101639000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,7 +639,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18763326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -643,7 +649,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.81023455" visible="true" weight="0.25830653" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.80916846" visible="true" weight="0.25294748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -651,7 +657,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290461" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.18976545" side_tool="true" visible="true" weight="0.25830653" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.19083156" side_tool="true" visible="true" weight="0.25294748" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3290461" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3290461" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -667,41 +673,6 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1609808" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39335477" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290461" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3290461" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3290461" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.16791044" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -755,7 +726,8 @@
     <MESSAGE value="prepareDocker.ps1 runs docker if it's not running, when it has finished &#10;booting up, boots up the container, when it has finished setting up the &#10;container, starts Selenium server" />
     <MESSAGE value="prepareDocker.ps1 fixed" />
     <MESSAGE value="prepareDocker.ps1 fixed args[x]" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepareDocker.ps1 fixed args[x]" />
+    <MESSAGE value="prepareDocker.ps1: starts selenium server and node but tests fail to run there" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepareDocker.ps1: starts selenium server and node but tests fail to run there" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Example" />
@@ -843,16 +815,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/all/record.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -863,34 +825,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
+        <state relative-caret-position="1309">
           <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/all/Common.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+        <state relative-caret-position="136">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/all/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+        <state relative-caret-position="420">
+          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>

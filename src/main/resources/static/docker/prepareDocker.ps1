@@ -84,7 +84,7 @@ else
 
     #Run ubuntu container
     Start-Job -Name run_job -ScriptBlock {
-        docker run --privileged -p 6080:80 -p 6081:4444 -v $args[0] -v $args[1] -v $args[2] --name ubulenium bernattt/ubuntu-selenium:v1
+        docker run --privileged -p 6080:80 -p 6081:4444 -v $args[0] -v $args[1] -v $args[2] -e TZ=Europe/Madrid --name ubulenium bernattt/ubuntu-selenium:v1 date
     } -ArgumentList @($down_path, $desk_path, $sele_path);
     #'docker run' output
     $run_output = Receive-Job -Name run_job 6>&1;
