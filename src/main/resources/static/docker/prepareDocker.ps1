@@ -47,6 +47,7 @@ function openwebsites
 function startselenium
 {
     Start-Job -Name selenium_job -ScriptBlock {
+        Start-Sleep -s 5
         docker exec ubulenium java -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar -role hub;
     }
 }
@@ -54,7 +55,8 @@ function startselenium
 #Starts a node in the selenium hub (http://localhost:6081/grid/console)
 function startnode
 {
-    Start-Job -Name selenium_job -ScriptBlock {
+    Start-Job -Name node_job -ScriptBlock {
+        Start-Sleep -s 5
         docker exec ubulenium java "-Dwebdriver.chrome.driver=/home/user/Selenium/chromedriver_linux64.zip" "-Dwebdriver.gecko.driver=/home/user/Selenium/geckodriver-v0.24.0-linux64.tar.gz" -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar -role node -hub "http://localhost:4444/grid/register"
     }
 }
@@ -79,8 +81,11 @@ elseif (docker ps -all | findstr "ubulenium")
     docker start ubulenium
     echo "Container started"
     #Start Selenium Server
+    Start-Sleep -s 5
     startselenium
-    #Create a node
+
+    #Start a node at the Selenium Server
+    Start-Sleep -s 5
     startnode
 }
 else
@@ -88,7 +93,7 @@ else
     #Theres no such container, run one based on the image
     #It will pull itself if it's not locally available
 
-    #Get mapped folders paths (-v option)
+    #Get mapped folders paths (-v option doesn't relative paths)
     $down_path = "$( pwd )\src\main\resources\static\docker\mapped\Downloads:/home/user/Downloads"
     $desk_path = "$( pwd )\src\main\resources\static\docker\mapped\Desktop:/home/user/Desktop"
     $sele_path = "$( pwd )\src\main\resources\static\docker\mapped\Selenium:/home/user/Selenium"
@@ -107,8 +112,12 @@ else
     }
 
     echo "Container started from the image"
+
     #Start Selenium Server
+    Start-Sleep -s 5
     startselenium
-    #Create a node
+
+    #Start a node at the Selenium Server
+    Start-Sleep -s 5
     startnode
 }

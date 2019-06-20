@@ -1,0 +1,1 @@
+This directory mapped to <this project in host>\src\main\resources\static\docker\mapped\Selenium

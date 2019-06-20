@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/Selenium_info.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/all/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/all/Common.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,20 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="51">
-                <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="28" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="374">
+              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -42,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
+            <state relative-caret-position="-100">
+              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -51,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+            <state relative-caret-position="963">
+              <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -60,20 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/all/Common.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -93,7 +69,6 @@
       <find>&amp;lt;</find>
       <find>desk</find>
       <find>run</find>
-      <find>started</find>
       <find>ubulenium</find>
       <find>ubuntubernat</find>
       <find>ubuntu</find>
@@ -102,6 +77,7 @@
       <find>v1</find>
       <find>startnode</find>
       <find>startselenium</find>
+      <find>started</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -157,6 +133,12 @@
         <option value="$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt" />
         <option value="$PROJECT_DIR$/src/test/java/all/Common.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/startSelenium.sh" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/docker/mapped/Desktop/Desktop_file_example.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/docker/mapped/Downloads/Downloads_file_example.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/docker/mapped/Desktop/Desktop_info.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/docker/mapped/Downloads/Downloads_info.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/Selenium_info.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" />
       </list>
     </option>
@@ -295,6 +277,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="mapped" type="462c0819:PsiDirectoryNode" />
+              <item name="Selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="drivers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -367,7 +360,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/docker/mapped/Downloads" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -379,21 +372,22 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium\src\main\resources\static\docker\mapped\Downloads" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="java" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium\src\main\resources\static\selenium\drivers" />
       <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium\src\main\resources\static" />
       <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium\src\main\resources\static\formulari" />
       <recent name="C:\Users\bernat.pericas\Documents\QA\sel\src\test\java\balearia" />
       <recent name="C:\Users\bernat.pericas\Documents\QA\sel\src\main\resources\static" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium\src\main\resources\static\docker\mapped\Selenium" />
+      <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium\src\main\resources\static\docker\mapped\Downloads" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -408,20 +402,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HeaderTest">
-    <configuration name="HomeController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.HomeController" />
-      <module name="sel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="PowerShell.prepareDocker.ps1">
     <configuration name="SeleniumTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.SeleniumTesting" />
       <module name="sel" />
@@ -472,6 +453,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="prepareDocker.ps1" type="PowerShellRunType" factoryName="PowerShell" temporary="true" scriptUrl="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" workingDirectory="C:\Users\bernat.pericas">
+      <method v="2" />
+    </configuration>
     <configuration name="Example" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sel" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.Controller" />
@@ -488,11 +472,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PowerShell.prepareDocker.ps1" />
         <item itemvalue="JUnit.HeaderTest" />
         <item itemvalue="Application.record" />
         <item itemvalue="Application.SeleniumTesting" />
         <item itemvalue="JUnit.BasicTest" />
-        <item itemvalue="Application.HomeController" />
       </list>
     </recent_temporary>
   </component>
@@ -523,7 +507,8 @@
       <workItem from="1560755063726" duration="8846000" />
       <workItem from="1560841408824" duration="11002000" />
       <workItem from="1560927907521" duration="15435000" />
-      <workItem from="1561010792947" duration="1609000" />
+      <workItem from="1561010792947" duration="9621000" />
+      <workItem from="1561023419760" duration="2209000" />
     </task>
     <task id="LOCAL-00001" summary="Common class created for common test code&#10;Browser drivers in a project folder (seleniumDrivers)">
       <created>1559898307691</created>
@@ -588,7 +573,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560943719609</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="time zonme is specified when creating the container, time is synced now">
+      <created>1561012493447</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561012493447</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added stopremovedelete function">
+      <created>1561017114729</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1561017114729</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -624,7 +623,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101639000" />
+    <option name="totallyTimeSpent" value="111860000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -639,7 +638,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18763326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -649,15 +648,15 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.80916846" visible="true" weight="0.25294748" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8075693" visible="true" weight="0.2357985" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290461" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.3290461" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.19083156" side_tool="true" visible="true" weight="0.25294748" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1924307" side_tool="true" visible="true" weight="0.2357985" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3290461" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3290461" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -718,6 +717,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Common class created for common test code&#10;Browser drivers in a project folder (seleniumDrivers)" />
     <MESSAGE value="HeaderTest (Balearia) run succesfully on docker container with chrome &#10;through a remoteDriver" />
     <MESSAGE value="Script working but maven runs it once per test, should be just once &#10;before running the tests" />
@@ -727,7 +728,9 @@
     <MESSAGE value="prepareDocker.ps1 fixed" />
     <MESSAGE value="prepareDocker.ps1 fixed args[x]" />
     <MESSAGE value="prepareDocker.ps1: starts selenium server and node but tests fail to run there" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepareDocker.ps1: starts selenium server and node but tests fail to run there" />
+    <MESSAGE value="time zonme is specified when creating the container, time is synced now" />
+    <MESSAGE value="added stopremovedelete function" />
+    <option name="LAST_COMMIT_MESSAGE" value="added stopremovedelete function" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Example" />
@@ -808,13 +811,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Downloads/Downloads_file_example.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Desktop/Desktop_file_example.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/all/record.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Downloads/Downloads_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="83" selection-start-column="83" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Desktop/Desktop_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/Selenium_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="73" lean-forward="true" selection-start-column="73" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -827,14 +845,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
+        <state relative-caret-position="-100">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/startnode.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/startselenium.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="963">
+          <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="204">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -844,22 +879,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/all/Common.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        <state relative-caret-position="68">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="374">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
         </state>
       </provider>
     </entry>
