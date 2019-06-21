@@ -21,14 +21,27 @@ if ($Running -eq $null)
 $uname = [Environment]::UserName;
 #Log file path
 $log_path = "C:\Users\" + $uname + "\AppData\Local\Docker\log.txt"
+if ($uname -eq '')
+{
+    echo "Couldn't get username from Enviroment variable"
+    echo "Please verify that writing [Environment]::UserName in powershell returns your username"
+    Break Script
+}
+elseif (-Not(Test-Path $log_path -PathType Leaf))
+{
+    echo "Could't get Docker log file: "+ $log_path
+    echo "Please verify that C:\Users\<YOUR_USERNAME>\AppData\Local\Docker\log.txt exists"
+    Break Script
+}
 #Last log tells us if it has finished booting up everything
 $started = Get-Content $log_path | Select-String -Pattern 'Docker Desktop is running' -CaseSensitive -SimpleMatch
+#Wait until Docker starts
 while ($started -eq $null)
 {
     echo "..."
     #Wait 5 more seconds
     Start-Sleep -s 5
-    $started = Get-Content $log_path | Select-String -Pattern 'Docker Desktop is running' -CaseSensitive -SimpleMatch
+    $started = Get-Content $log_path | Select-String -Pattern 'Docker Desktop is running' -SimpleMatch
 }
 echo "Docker is ready"
 
@@ -57,7 +70,11 @@ function startnode
 {
     Start-Job -Name node_job -ScriptBlock {
         Start-Sleep -s 5
-        docker exec ubulenium java "-Dwebdriver.chrome.driver=/home/user/Selenium/chromedriver_linux64.zip" "-Dwebdriver.gecko.driver=/home/user/Selenium/geckodriver-v0.24.0-linux64.tar.gz" -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar -role node -hub "http://localhost:4444/grid/register"
+        docker exec ubulenium java `
+        "-Dwebdriver.chrome.driver=/home/user/Selenium/chromedriver_linux64.zip" `
+        "-Dwebdriver.gecko.driver=/home/user/Selenium/geckodriver-v0.24.0-linux64.tar.gz" `
+        -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar `
+        -role node -hub "http://localhost:4444/grid/register"
     }
 }
 
@@ -66,7 +83,7 @@ function stopremovedelete
 {
     docker stop (docker ps -aqf "name=ubulenium");
     docker rm (docker ps -aqf "name=ubulenium");
-    docker rmi $(docker images --format "{{.Repository}}:{{.Tag}}"|findstr "ubuntu-selenium")
+    docker rmi $( docker images --format "{{.Repository}}:{{.Tag}}"|findstr "ubuntu-selenium" )
 }
 #######################################################
 
@@ -100,7 +117,12 @@ else
 
     #Run ubuntu container
     Start-Job -Name run_job -ScriptBlock {
-        docker run --privileged -p 6080:80 -p 6081:4444 -v $args[0] -v $args[1] -v $args[2] -e TZ=Europe/Madrid --name ubulenium bernattt/ubuntu-selenium:v2 date
+        docker run --privileged `
+        -p 6080:80 -p 6081:4444 `
+        -v $args[0] -v $args[1] -v $args[2] `
+        -e TZ=Europe/Madrid `
+        --name ubulenium bernattt/ubuntu-selenium:v2 `
+        date
     } -ArgumentList @($down_path, $desk_path, $sele_path);
     #'docker run' output
     $run_output = Receive-Job -Name run_job 6>&1;
