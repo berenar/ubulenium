@@ -3,7 +3,9 @@
     <words>
       <w>chromedriver</w>
       <w>geckodriver</w>
+      <w>kitematic</w>
       <w>powershell</w>
+      <w>ubulenium</w>
     </words>
   </dictionary>
 </component>

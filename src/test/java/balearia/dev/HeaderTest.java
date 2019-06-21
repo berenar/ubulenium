@@ -3,9 +3,8 @@ package balearia.dev;
 
 import all.Common;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.Keys;
+import org.openqa.selenium.*;
+
 
 public class HeaderTest extends Common {
 
