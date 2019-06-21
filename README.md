@@ -3,7 +3,7 @@
 
 Maven project for recording and running Selenium tests in an isolated environment.
 
-![ubuntu container](https://gitbucket.sm2baleares.es/jordi.ripoll/selenium/tree/dev-bernat/src/main/resources/static/readme_picture.png)
+![ubuntu container](https://gitbucket.sm2baleares.es/jordi.ripoll/selenium/blob/dev-bernat/src/main/resources/static/readme_picture.png)
 
 ### Java project
 Java  
