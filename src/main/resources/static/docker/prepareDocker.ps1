@@ -19,7 +19,7 @@ if ($Running -eq $null)
 }
 #Get user username
 $uname = [Environment]::UserName;
-#Log file path
+#Docker log file path
 $log_path = "C:\Users\" + $uname + "\AppData\Local\Docker\log.txt"
 if ($uname -eq '')
 {
@@ -60,7 +60,6 @@ function openwebsites
 function startselenium
 {
     Start-Job -Name selenium_job -ScriptBlock {
-        Start-Sleep -s 5
         docker exec ubulenium java -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar -role hub;
     }
 }
@@ -69,7 +68,6 @@ function startselenium
 function startnode
 {
     Start-Job -Name node_job -ScriptBlock {
-        Start-Sleep -s 5
         docker exec ubulenium java `
         "-Dwebdriver.chrome.driver=/home/user/Selenium/chromedriver_linux64.zip" `
         "-Dwebdriver.gecko.driver=/home/user/Selenium/geckodriver-v0.24.0-linux64.tar.gz" `

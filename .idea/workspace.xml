@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
+            <state relative-caret-position="-1302">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -78,6 +78,7 @@
       <find>startselenium</find>
       <find>started</find>
       <find>`</find>
+      <find>run_job</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -509,7 +510,7 @@
       <workItem from="1560927907521" duration="15435000" />
       <workItem from="1561010792947" duration="9621000" />
       <workItem from="1561023419760" duration="4801000" />
-      <workItem from="1561101152822" duration="2949000" />
+      <workItem from="1561101152822" duration="4874000" />
     </task>
     <task id="LOCAL-00001" summary="Common class created for common test code&#10;Browser drivers in a project folder (seleniumDrivers)">
       <created>1559898307691</created>
@@ -602,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561027978081</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="preparedocker.ps1 checks if the username could be obtained and if the docker log file exists, if not, stops the script">
+      <created>1561104208339</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1561104208339</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -638,7 +646,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117401000" />
+    <option name="totallyTimeSpent" value="119326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -663,7 +671,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" auto_hide="true" id="Run" order="2" sideWeight="0.8070362" visible="true" weight="0.43622723" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" order="2" sideWeight="0.8070362" weight="0.22936763" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -747,7 +755,8 @@
     <MESSAGE value="added stopremovedelete function" />
     <MESSAGE value="added time wait before starting selenium server and node" />
     <MESSAGE value="pom.xml: changed plugin (antrun) that executes the script" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom.xml: changed plugin (antrun) that executes the script" />
+    <MESSAGE value="preparedocker.ps1 checks if the username could be obtained and if the docker log file exists, if not, stops the script" />
+    <option name="LAST_COMMIT_MESSAGE" value="preparedocker.ps1 checks if the username could be obtained and if the docker log file exists, if not, stops the script" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Example" />
@@ -895,8 +904,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
+        <state relative-caret-position="-1302">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
