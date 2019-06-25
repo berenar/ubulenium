@@ -1,4 +1,3 @@
-
 # Ubulenium
 
 Maven project for recording and running Selenium tests in an isolated environment.
@@ -31,7 +30,7 @@ Ubuntu credentials: *user*, *password*
 There are some directories mapped from the project to the container.  
   
 |                            Host                    |      Container       |
-| -------------------------------------------------- |----------------------|
+| -------------------------------------------------- | -------------------- |
 | \src\main\resources\static\docker\mapped\Downloads | /home/user/Downloads |
 | \src\main\resources\static\docker\mapped\Desktop   | /home/user/Desktop   |
 | \src\main\resources\static\docker\mapped\Selenium  | /home/user/Selenium  |
@@ -141,5 +140,3 @@ Simply uncomment the driver declaration you want to use.
 * [**Maven**](https://maven.apache.org/) - Dependency Management
 * [**Spring**](https://spring.io/) - Java framework
 * [**Spring Boot**](https://spring.io/projects/spring-boot) - Spring extension
-
-
