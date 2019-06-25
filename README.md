@@ -28,8 +28,8 @@ Ubuntu credentials: *user*, *password*
 
 There are some directories mapped from the project to the container.  
   
-| Host                                               | Container            |
-| -------------------------------------------------- | -------------------- |
+| Host  | Container |
+| ------------ | ------------ |
 | \src\main\resources\static\docker\mapped\Downloads | /home/user/Downloads |
 | \src\main\resources\static\docker\mapped\Desktop   | /home/user/Desktop   |
 | \src\main\resources\static\docker\mapped\Selenium  | /home/user/Selenium  |
@@ -40,8 +40,8 @@ There are also some ports mapped from the container to your host.
 
 | Host | Container | Use        |
 | ---- | --------- | ---------- |
-| 6080 | 80        | VNC Server |
-| 6081 | 4444      | Selenium   |
+| 6080 |    80     | VNC Server |
+| 6081 |   4444    |  Selenium  |
 
 ## Getting Started
 
