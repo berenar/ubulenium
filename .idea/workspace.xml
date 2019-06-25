@@ -4,6 +4,7 @@
     <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/readme_picture.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_picture.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +49,11 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="102">
-                <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <first_editor relative-caret-position="85">
+                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                <folding>
+                  <element signature="imports" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -550,7 +554,7 @@
       <workItem from="1561023419760" duration="4801000" />
       <workItem from="1561101152822" duration="5252000" />
       <workItem from="1561107199020" duration="9536000" />
-      <workItem from="1561446907700" duration="208000" />
+      <workItem from="1561446907700" duration="898000" />
     </task>
     <task id="LOCAL-00001" summary="Common class created for common test code&#10;Browser drivers in a project folder (seleniumDrivers)">
       <created>1559898307691</created>
@@ -671,7 +675,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561118342932</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="edited README">
+      <created>1561447237186</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1561447237186</updated>
+    </task>
+    <task id="LOCAL-00019" summary="edited README">
+      <created>1561447452133</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1561447452133</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -707,7 +725,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129502000" />
+    <option name="totallyTimeSpent" value="130138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,7 +838,8 @@
     <MESSAGE value="preparedocker.ps1 removed two unuseful start-sleep" />
     <MESSAGE value="README.md completed" />
     <MESSAGE value="README.md picture url changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md picture url changed" />
+    <MESSAGE value="edited README" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited README" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Example" />
@@ -966,8 +985,11 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="102">
-            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <first_editor relative-caret-position="85">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <folding>
+              <element signature="imports" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
