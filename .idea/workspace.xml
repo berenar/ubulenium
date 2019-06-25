@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/readme_picture.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_picture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/readme_picture.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="414">
+              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -49,8 +49,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="85">
-                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <first_editor relative-caret-position="255">
+                <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
                 <folding>
                   <element signature="imports" expanded="true" />
                 </folding>
@@ -170,7 +170,6 @@
         <option value="$PROJECT_DIR$/docker/ubuntu-chromium-vnc.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/prepareDocker.ps1" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt" />
         <option value="$PROJECT_DIR$/src/test/java/all/Common.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/startSelenium.sh" />
         <option value="$PROJECT_DIR$/src/main/resources/static/docker/mapped/Desktop/Desktop_file_example.txt" />
@@ -181,6 +180,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" />
         <option value="$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -415,22 +415,22 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium\src\main\resources\static\selenium\drivers" />
-      <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium\src\main\resources\static" />
-      <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium\src\main\resources\static\formulari" />
-      <recent name="C:\Users\bernat.pericas\Documents\QA\sel\src\test\java\balearia" />
-      <recent name="C:\Users\bernat.pericas\Documents\QA\sel\src\main\resources\static" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="java" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium\src\main\resources\static\docker\mapped\Selenium" />
       <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium\src\main\resources\static\docker\mapped\Downloads" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium" />
+      <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium\src\main\resources\static\selenium\drivers" />
+      <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium\src\main\resources\static" />
+      <recent name="C:\Users\bernat.pericas\Documents\QA\repo-selenium\selenium\src\main\resources\static\formulari" />
+      <recent name="C:\Users\bernat.pericas\Documents\QA\sel\src\test\java\balearia" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -554,7 +554,7 @@
       <workItem from="1561023419760" duration="4801000" />
       <workItem from="1561101152822" duration="5252000" />
       <workItem from="1561107199020" duration="9536000" />
-      <workItem from="1561446907700" duration="898000" />
+      <workItem from="1561446907700" duration="1193000" />
     </task>
     <task id="LOCAL-00001" summary="Common class created for common test code&#10;Browser drivers in a project folder (seleniumDrivers)">
       <created>1559898307691</created>
@@ -689,7 +689,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561447452133</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="README image fixed">
+      <created>1561447876545</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1561447876545</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -725,7 +732,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130138000" />
+    <option name="totallyTimeSpent" value="130433000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -740,7 +747,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19616205" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19616205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -754,7 +761,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3290461" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.23151125" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -839,7 +846,8 @@
     <MESSAGE value="README.md completed" />
     <MESSAGE value="README.md picture url changed" />
     <MESSAGE value="edited README" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited README" />
+    <MESSAGE value="README image fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="README image fixed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Example" />
@@ -937,13 +945,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/startnode.sh" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/startselenium.sh" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
@@ -982,11 +983,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <first_editor relative-caret-position="255">
+            <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
             <folding>
               <element signature="imports" expanded="true" />
             </folding>
