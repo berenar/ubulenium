@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="README.md completed">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/bernat_pericas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/bernat_pericas.xml" afterDir="false" />
+    <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="714">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -31,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
+            <state relative-caret-position="1479">
               <caret line="87" selection-start-line="87" selection-end-line="87" />
             </state>
           </provider>
@@ -40,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="83" column="95" lean-forward="true" selection-start-line="81" selection-start-column="4" selection-end-line="83" selection-end-column="95" />
+            <state relative-caret-position="1411">
+              <caret line="83" column="95" selection-start-line="81" selection-start-column="4" selection-end-line="83" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -50,8 +48,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="85">
-                <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <first_editor relative-caret-position="102">
+                <caret line="6" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -70,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="153">
+              <caret line="11" column="26" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/all/Common.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+            <state relative-caret-position="204">
+              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -220,6 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -389,7 +388,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -551,7 +549,8 @@
       <workItem from="1561010792947" duration="9621000" />
       <workItem from="1561023419760" duration="4801000" />
       <workItem from="1561101152822" duration="5252000" />
-      <workItem from="1561107199020" duration="9246000" />
+      <workItem from="1561107199020" duration="9536000" />
+      <workItem from="1561446907700" duration="208000" />
     </task>
     <task id="LOCAL-00001" summary="Common class created for common test code&#10;Browser drivers in a project folder (seleniumDrivers)">
       <created>1559898307691</created>
@@ -658,7 +657,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561106493123</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="README.md completed">
+      <created>1561118238067</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1561118238068</updated>
+    </task>
+    <task id="LOCAL-00017" summary="README.md picture url changed">
+      <created>1561118342932</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1561118342932</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -694,7 +707,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128950000" />
+    <option name="totallyTimeSpent" value="129502000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -709,7 +722,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19402985" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19616205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -805,7 +818,9 @@
     <MESSAGE value="pom.xml: changed plugin (antrun) that executes the script" />
     <MESSAGE value="preparedocker.ps1 checks if the username could be obtained and if the docker log file exists, if not, stops the script" />
     <MESSAGE value="preparedocker.ps1 removed two unuseful start-sleep" />
-    <option name="LAST_COMMIT_MESSAGE" value="preparedocker.ps1 removed two unuseful start-sleep" />
+    <MESSAGE value="README.md completed" />
+    <MESSAGE value="README.md picture url changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md picture url changed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Example" />
@@ -905,32 +920,22 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/startselenium.sh" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="714">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
+        <state relative-caret-position="1479">
           <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/all/Common.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1411">
+          <caret line="83" column="95" selection-start-line="81" selection-start-column="4" selection-end-line="83" selection-end-column="95" />
         </state>
       </provider>
     </entry>
@@ -941,18 +946,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
+    <entry file="file://$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="83" column="95" lean-forward="true" selection-start-line="81" selection-start-column="4" selection-end-line="83" selection-end-column="95" />
+        <state relative-caret-position="153">
+          <caret line="11" column="26" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/all/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <first_editor relative-caret-position="102">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
           </first_editor>
           <second_editor />
         </state>

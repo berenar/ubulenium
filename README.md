@@ -3,7 +3,8 @@
 
 Maven project for recording and running Selenium tests in an isolated environment.
 
-![ubuntu container](https://gitbucket.sm2baleares.es/jordi.ripoll/selenium/blob/dev-bernat/src/main/resources/static/readme_picture.png)
+  <img src="https://gitbucket.sm2baleares.es/jordi.ripoll/selenium/blob/dev-bernat/src/main/resources/static/readme_picture.png"/>
+
 
 ### Java project
 Java  
@@ -29,8 +30,8 @@ Ubuntu credentials: *user*, *password*
 
 There are some directories mapped from the project to the container.  
   
-|                            Host                    |      Container       | 
-| -------------------------------------------------- |----------------------| 
+|                            Host                    |      Container       |
+| -------------------------------------------------- |----------------------|
 | \src\main\resources\static\docker\mapped\Downloads | /home/user/Downloads |
 | \src\main\resources\static\docker\mapped\Desktop   | /home/user/Desktop   |
 | \src\main\resources\static\docker\mapped\Selenium  | /home/user/Selenium  |
