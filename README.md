@@ -1,4 +1,3 @@
-
 # Ubulenium
 
 Maven project for recording and running Selenium tests in an isolated environment.
@@ -140,5 +139,3 @@ Simply uncomment the driver declaration you want to use.
 * [**Maven**](https://maven.apache.org/) - Dependency Management
 * [**Spring**](https://spring.io/) - Java framework
 * [**Spring Boot**](https://spring.io/projects/spring-boot) - Spring extension
-
-
