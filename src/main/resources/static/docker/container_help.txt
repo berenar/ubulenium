@@ -53,4 +53,3 @@ bernattt/ubuntubernat
 If(-Not(docker ps | findstr "bernattt/ubuntubernat")){
 docker run --privileged -p 6080:80 -p 6081:4444 --name ubuntubernat -v C:\Users\$env:username\Downloads:/home/user/Downloads -v C:\Users\$env:username\Desktop:/home/user/Desktop bernattt/ubuntubernat
 }
-//TODO: canviar a docker/mapped (ubuntu container)/Desktop i Downloads
