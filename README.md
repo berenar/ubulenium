@@ -34,6 +34,13 @@ There are some directories mapped from the project to the container.
 | \src\main\resources\static\docker\mapped\Desktop   | /home/user/Desktop   |
 | \src\main\resources\static\docker\mapped\Selenium  | /home/user/Selenium  |
 
+| Host | Container |
+| ---- | --------- |
+| \src\main\resources\static\docker\mapped\Downloads | /home/user/Downloads |
+| \src\main\resources\static\docker\mapped\Desktop | /home/user/Desktop |
+| \src\main\resources\static\docker\mapped\Selenium | /home/user/Selenium |
+
+
 > If you see a text file inside every mapped directory you are good to go.
 
 There are also some ports mapped from the container to your host.
