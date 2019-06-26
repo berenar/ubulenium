@@ -22,7 +22,7 @@ public class Common {
     public WebDriver driver;
     public Map<String, Object> vars;
     JavascriptExecutor js;
-    String remoteUrl = "http://localhost:6081/wd/hub";
+    String remoteUrl = "http://localhost:4444/wd/hub";
 
     @Before
     public void setUp() throws MalformedURLException {
@@ -36,8 +36,8 @@ public class Common {
         driver = new ChromeDriver();*/
 
         //Remote
-/*        DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
-        driver = new RemoteWebDriver(new URL(remoteUrl), chromeCapabilities);*/
+        DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
+        driver = new RemoteWebDriver(new URL(remoteUrl), chromeCapabilities);
 
 
         //-------------FireFox-------------//
@@ -49,8 +49,8 @@ public class Common {
         driver = new FirefoxDriver(options);*/
 
         //Remote
-        DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-        driver = new RemoteWebDriver(new URL(remoteUrl), capabilities);
+/*        DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+        driver = new RemoteWebDriver(new URL(remoteUrl), capabilities);*/
 
         //All
         js = (JavascriptExecutor) driver;
