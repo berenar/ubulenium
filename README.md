@@ -43,6 +43,7 @@ There are also some ports mapped from the container to your host.
 | ---- | --------- | ---------- |
 | 6080 |    80     | VNC Server |
 | 6081 |   4444    |  Selenium  |
+| 6082 |   8080    | index.html |
 
 ## Getting Started
 

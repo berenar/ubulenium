@@ -68,11 +68,7 @@ function startselenium
 function startnode
 {
     Start-Job -Name node_job -ScriptBlock {
-        docker exec ubulenium java `
-        "-Dwebdriver.chrome.driver=/home/user/Selenium/chromedriver_linux64.zip" `
-        "-Dwebdriver.gecko.driver=/home/user/Selenium/geckodriver-v0.24.0-linux64.tar.gz" `
-        -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar `
-        -role node -hub "http://localhost:4444/grid/register"
+        docker exec ubulenium java -Dwebdriver.chrome.driver=/home/user/Selenium/chromedriver -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar -role webdriver -hub http://localhost:4444/grid/register -browser "browserName=chrome,platform=LINUX";
     }
 }
 
@@ -95,13 +91,13 @@ elseif (docker ps -a | findstr "ubulenium")
     #Container already exists but it's not running
     docker start ubulenium
     echo "Container started"
-    #Start Selenium Server
+<#    #Start Selenium Server
     Start-Sleep -s 5
     startselenium
 
     #Start a node at the Selenium Server
     Start-Sleep -s 5
-    startnode
+    startnode#>
 }
 else
 {
@@ -116,7 +112,7 @@ else
     #Run ubuntu container
     Start-Job -Name run_job -ScriptBlock {
         docker run --privileged `
-        -p 6080:80 -p 6081:4444 `
+        -p 6080:80 -p 6081:4444 -p 8080:6082 `
         -v $args[0] -v $args[1] -v $args[2] `
         -e TZ=Europe/Madrid `
         --name ubulenium bernattt/ubuntu-selenium:v2 `

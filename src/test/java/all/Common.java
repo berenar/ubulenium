@@ -22,7 +22,7 @@ public class Common {
     public WebDriver driver;
     public Map<String, Object> vars;
     JavascriptExecutor js;
-    String remoteUrl = "http://localhost:4444/wd/hub";
+    String remoteUrl = "http://localhost:6081/wd/hub";
 
     @Before
     public void setUp() throws MalformedURLException {
