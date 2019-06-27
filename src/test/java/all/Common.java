@@ -30,12 +30,13 @@ public class Common {
         //-------------Chrome-------------//
 
         //Local
-/*        String driverPath = System.getProperty("user.dir") + "\\selenium\\src\\main\\resources\\static\\selenium\\drivers\\chromedriver.exe";
+        String driverPath = System.getProperty("user.dir") + "\\selenium\\src\\main\\resources\\static\\selenium\\drivers\\chromedriver.exe";
         System.out.println(driverPath);
         System.setProperty("webdriver.chrome.driver", driverPath);
-        driver = new ChromeDriver();*/
+        /*driver = new ChromeDriver();*/
 
         //Remote
+
         DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
         driver = new RemoteWebDriver(new URL(remoteUrl), chromeCapabilities);
 

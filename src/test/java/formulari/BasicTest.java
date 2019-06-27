@@ -1,4 +1,4 @@
-/*
+
 package formulari;
 
 import org.junit.Test;
@@ -32,4 +32,4 @@ public class BasicTest extends Common {
     }
 }
 
-*/
+

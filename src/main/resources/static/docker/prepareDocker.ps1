@@ -90,7 +90,7 @@ if (docker ps | findstr "ubulenium")
     #Container is already running
     echo "Container already running"
 }
-elseif (docker ps -all | findstr "ubulenium")
+elseif (docker ps -a | findstr "ubulenium")
 {
     #Container already exists but it's not running
     docker start ubulenium
