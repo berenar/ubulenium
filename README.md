@@ -29,9 +29,7 @@ There are some directories mapped from the project to the container.
 
 | Host | Container |
 | ---- | --------- |
-| \src\main\resources\static\docker\mapped\Selenium | /home/user/Selenium |
-
-> If you see a text file inside every mapped directory you are good to go.
+| \src\main\resources\static\docker\mapped\Selenium | /home/user/Selenium |  
 
 There are also some ports mapped from the container to your host.
 
