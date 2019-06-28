@@ -111,9 +111,11 @@ Once the project has finished installing the Docker container you can begin to r
 1. Open *http://127.0.0.1:6080* with your browser  
 
 > You are now inside the container  
+
 2. Open Chromium from the task bar  
 
 > You will see that it has Selenium IDE installed  
+
 3. Open Selenium IDE extension  
 4. Record the test  
 5. Export it to one of the [mapped directories](#docker-container)  
