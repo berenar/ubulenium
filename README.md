@@ -90,11 +90,17 @@ No need to install anything, just run the project with Maven.
 ````
 > Docker may ask you permission to share drives because of the mapped directories.
 
+You may want to skip tests to run them manually
+````
+    mvn clean install -DskipTests
+````
+> You can always right click the test class and 'Run <TEST_CLASS_NAME>'
+
 Check that the container is up and running  
 * [Here](http://127.0.0.1:6080) you should see the Ubuntu desktop.   
 * [Here](http://127.0.0.1:6081/grid/console) you should see a Selenium Grid Console and a node with Chrome and Firefox.  
 
-> Your IP may be different.
+> **Note**: Your IP may be different.
 ## Usage
 Once the project has finished installing the Docker container you can begin to record and run tests.
 
