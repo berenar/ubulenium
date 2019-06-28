@@ -10,11 +10,11 @@ Maven
 Springboot  
 JUnit  
 
-*Uses a docker container (Ubulenium)*
+*Uses a customized docker container (Ubulenium)*
 
 ### Docker container
 
-You can find the image [here](https://cloud.docker.com/repository/docker/bernattt/ubuntu-selenium)
+You can find the image [here](http://registrysf.sm2baleares.es/)
 
 **Ubuntu** Desktop 18.04.2 LTS 64-bit  
 **Chromium** 73.0  
@@ -25,15 +25,11 @@ You can find the image [here](https://cloud.docker.com/repository/docker/bernatt
 
 Ubuntu credentials: *user*, *password*
 
-
 There are some directories mapped from the project to the container.  
 
 | Host | Container |
 | ---- | --------- |
-| \src\main\resources\static\docker\mapped\Downloads | /home/user/Downloads |
-| \src\main\resources\static\docker\mapped\Desktop | /home/user/Desktop |
 | \src\main\resources\static\docker\mapped\Selenium | /home/user/Selenium |
-
 
 > If you see a text file inside every mapped directory you are good to go.
 
@@ -43,15 +39,34 @@ There are also some ports mapped from the container to your host.
 | ---- | --------- | ---------- |
 | 6080 |    80     | VNC Server |
 | 6081 |   4444    |  Selenium  |
-| 6082 |   8080    | index.html |
+| 6082 |   8080    | Springboot static resources |
+
+#### Make changes to the container
+You may want to modify the image, you can do it by:
+* Running the container
+* Modifying whatever you need from ubuntu
+* Commit container changes
+````
+docker commit <CONTAINER ID> registrysf.sm2baleares.es:5000/ubuntu-selenium:<vx>
+````
+>'CONTAINER ID' is not the IMAGE ID.  
+'vx' is the version tag, where **x** is **n+1** being **n** the latest version available at that moment.  
+
+* Push changes to the repository 
+````
+docker push registrysf.sm2baleares.es:5000/ubuntu-selenium:<vx>
+````
+
+> Always push the image with a new version tag, otherwise the image will be overwritten
 
 ## Getting Started
 
-Clone project
+Clone the project
 ```
     git clone https://gitbucket.sm2baleares.es/git/jordi.ripoll/selenium.git
+    cd .\selenium\
+    git checkout <DESIRED BRANCH>
 ```
-
 
 ### Prerequisites
 
@@ -76,15 +91,16 @@ No need to install anything, just run the project with Maven.
 > Docker may ask you permission to share drives because of the mapped directories.
 
 Check that the container is up and running  
-* [Here](http://localhost:6080) you should see the Ubuntu desktop.   
-* [Here](http://localhost:6081/grid/console) you should see a Selenium Grid Console and a node with Chrome and Firefox.  
+* [Here](http://127.0.0.1:6080) you should see the Ubuntu desktop.   
+* [Here](http://127.0.0.1:6081/grid/console) you should see a Selenium Grid Console and a node with Chrome and Firefox.  
 
+> Your IP may be different.
 ## Usage
 Once the project has finished installing the Docker container you can begin to record and run tests.
 
 ### Record tests
 
-1. Open *http://localhost:6080* with your browser
+1. Open *http://127.0.0.1:6080* with your browser
 > You are now inside the container  
 2. Open Chromium from the task bar
 > You will see that it has Selenium IDE installed  
@@ -98,10 +114,18 @@ erased, always save files in one of the mapped directories.
 > **Note**: Docker may have some temporary files but save what you want to keep.
 
 ### Run tests
+You need to start the Selenium server inside the container, simply by opening the two scripts in the ubuntu Desktop in this order:  
 
-You can run tests via a RemoteWebDriver from the Java project, inside /src/test/java create a new package and a class 
-that extends the Common class, where the webdriver is initialized.  
-The new class will override the @Test method and has to have this structure:
+1. start_hub.sh  
+2. start_node.sh  
+
+> To stop the server close the two terminal windows.
+
+> You can start as many nodes as you want, running the *start_node.sh* script more times.
+
+You can run tests via a *RemoteWebDriver* from the Java project, inside **/src/test/java** create a new package and a class 
+that extends the *Common* class, where the *Webdriver* is initialized.  
+The new class will override the *@Test* method and has to have this structure:
 
 ````java
     package your_package_name;

@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Starting Selenium node"...
+java -Dwebdriver.chrome.driver=/home/user/Selenium/chromedriver -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar -role webdriver -hub http://localhost:4444/grid/register -browser "browserName=chrome,platform=LINUX" -browserTimeout 0 -log /home/user/Selenium/log.txt

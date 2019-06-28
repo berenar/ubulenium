@@ -37,8 +37,14 @@ public class Common {
 
         //Remote
 
-        DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
-        driver = new RemoteWebDriver(new URL(remoteUrl), chromeCapabilities);
+/*        DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
+        driver = new RemoteWebDriver(new URL(remoteUrl), chromeCapabilities);*/
+
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--start-maximized");
+        options.addArguments("--disable-infobars");
+        options.addArguments("--no-sandbox");
+        driver = new RemoteWebDriver(new URL(remoteUrl), options);
 
 
         //-------------FireFox-------------//
