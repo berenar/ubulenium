@@ -49,6 +49,7 @@ You may want to modify the image, you can do it by:
 ````
 docker commit <CONTAINER ID> registrysf.sm2baleares.es:5000/ubuntu-selenium:<vx>
 ````
+
 >'CONTAINER ID' is not the IMAGE ID.  
 'vx' is the version tag, where **x** is **n+1** being **n** the latest version available at that moment.  
 
@@ -101,14 +102,17 @@ Check that the container is up and running
 * [Here](http://127.0.0.1:6081/grid/console) you should see a Selenium Grid Console and a node with Chrome and Firefox.  
 
 > **Note**: Your IP may be different.
+
 ## Usage
 Once the project has finished installing the Docker container you can begin to record and run tests.
 
 ### Record tests
 
-1. Open *http://127.0.0.1:6080* with your browser
+1. Open *http://127.0.0.1:6080* with your browser  
+
 > You are now inside the container  
-2. Open Chromium from the task bar
+2. Open Chromium from the task bar  
+
 > You will see that it has Selenium IDE installed  
 3. Open Selenium IDE extension  
 4. Record the test  
