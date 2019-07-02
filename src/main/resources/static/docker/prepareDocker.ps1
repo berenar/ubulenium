@@ -53,8 +53,8 @@ echo "Docker is ready"
 #Open the servers localhosts
 function openwebsites
 {
-    start http://127.0.0.1:6080/#/ #NVC
-    start http://127.0.0.1:6081/grid/console #Selenium
+    start http://localhost:6080/#/ #NVC
+    start http://localhost:6081/grid/console #Selenium
 }
 #Runs a command inside the container that starts the Selenium server (http://localhost:6081/)
 function startselenium
@@ -110,7 +110,7 @@ else
         -p 6080:80 -p 6081:4444 `
         -v $args[0] `
         -e TZ=Europe/Madrid `
-        --name ubulenium registrysf.sm2baleares.es:5000/ubuntu-selenium:v3 `
+        --name ubulenium registrysf.sm2baleares.es:5000/ubuntu-selenium:v4 `
     } -ArgumentList @($sele_path);
     #'docker run' output
     $run_output = Receive-Job -Name run_job 6>&1;

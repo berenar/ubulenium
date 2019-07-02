@@ -1,3 +1,0 @@
-#!/bin/bash
-echo "Starting Selenium hub"...
-java -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar -role hub

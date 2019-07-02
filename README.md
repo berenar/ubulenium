@@ -96,8 +96,8 @@ You may want to skip tests to run them manually
 > You can always right click the test class and 'Run <TEST_CLASS_NAME>'
 
 Check that the container is up and running  
-* [Here](http://127.0.0.1:6080) you should see the Ubuntu desktop.   
-* [Here](http://127.0.0.1:6081/grid/console) you should see a Selenium Grid Console and a node with Chrome and Firefox.  
+* [Here](http://localhost:6080) you should see the Ubuntu desktop.   
+* [Here](http://localhost:6081/grid/console) you should see a Selenium Grid Console and a node with Chrome and Firefox.  
 
 > **Note**: Your IP may be different.
 
@@ -106,7 +106,7 @@ Once the project has finished installing the Docker container you can begin to r
 
 ### Record tests
 
-1. Open *http://127.0.0.1:6080* with your browser  
+1. Open *http://localhost:6080* with your browser  
 
 > You are now inside the container  
 
@@ -128,8 +128,6 @@ You need to start the Selenium server inside the container, simply by opening th
 
 1. start_hub.sh  
 2. start_node.sh  
-
-> To stop the server close the two terminal windows.
 
 > You can start as many nodes as you want, running the *start_node.sh* script more times.
 

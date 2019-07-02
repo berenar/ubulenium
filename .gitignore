@@ -1,3 +1,4 @@
 target/
 src/main/resources/static/docker/mapped/Desktop/*
 src/main/resources/static/docker/mapped/Downloads/*
+src\main\resources\static\docker\mapped\Selenium/log*
