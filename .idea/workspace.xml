@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="README.md: removed unused functions">
+    <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/SeleniumTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/SeleniumTesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/formulari/BasicTest.java" beforeDir="false" />
     </list>
     <list id="9a586f96-aad5-4a25-8818-bb359d1650c4" name="README edited" comment="" />
     <list id="458c4844-25db-4096-ab1c-972e5ab82443" name="Revert &quot;README edited&quot;" comment="Revert &quot;README edited&quot;&#10;&#10;This reverts commit f65017f1" />
@@ -37,7 +33,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -63,18 +59,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1462">
@@ -92,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+            <state relative-caret-position="585">
+              <caret line="89" column="74" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -223,8 +207,8 @@
         <option value="$PROJECT_DIR$/src/test/java/all/Common.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/main/SeleniumTesting.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" />
       </list>
     </option>
   </component>
@@ -250,6 +234,9 @@
       </expand>
       <select />
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="647" />
@@ -368,15 +355,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="balearia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="balearia" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
@@ -562,7 +540,7 @@
       <workItem from="1562055871220" duration="1645000" />
       <workItem from="1562057557826" duration="120000" />
       <workItem from="1562057712027" duration="139000" />
-      <workItem from="1562057883227" duration="6579000" />
+      <workItem from="1562057883227" duration="7474000" />
     </task>
     <task id="LOCAL-00001" summary="Common class created for common test code&#10;Browser drivers in a project folder (seleniumDrivers)">
       <created>1559898307691</created>
@@ -760,7 +738,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562058086480</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="index.html removed&#10;cleaned project">
+      <created>1562065028343</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1562065028343</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -796,7 +781,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171855000" />
+    <option name="totallyTimeSpent" value="172750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -821,7 +806,7 @@
       <window_info id="Web" order="7" sideWeight="0.5005359" side_tool="true" weight="0.2457356" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3290461" />
-      <window_info anchor="bottom" auto_hide="true" id="Run" order="2" sideWeight="0.8070362" weight="0.2454448" />
+      <window_info active="true" anchor="bottom" auto_hide="true" id="Run" order="2" sideWeight="0.8070362" visible="true" weight="0.26688102" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -892,7 +877,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="HeaderTest (Balearia) run succesfully on docker container with chrome &#10;through a remoteDriver" />
     <MESSAGE value="Script working but maven runs it once per test, should be just once &#10;before running the tests" />
     <MESSAGE value="Desktop and Downloads folders map correctly" />
     <MESSAGE value="added README.md&#10;prepareDocker.ps1 now also starts selenium server once the container is &#10;running" />
@@ -917,7 +901,8 @@
     <MESSAGE value="README.md edited style" />
     <MESSAGE value="gitignore ignoires log files created by selenium&#10;replaced my ip with localhost" />
     <MESSAGE value="README.md: removed unused functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md: removed unused functions" />
+    <MESSAGE value="index.html removed&#10;cleaned project" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.html removed&#10;cleaned project" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1040,13 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/other/GithubTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1054,6 +1032,16 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2567">
+            <caret line="153" column="113" selection-start-line="153" selection-start-column="113" selection-end-line="153" selection-end-column="113" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1068,13 +1056,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2567">
-            <caret line="153" column="113" selection-start-line="153" selection-start-column="113" selection-end-line="153" selection-end-column="113" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="89" column="74" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
         </state>
       </provider>
     </entry>
