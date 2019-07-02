@@ -56,31 +56,6 @@ function openwebsites
     start http://localhost:6080/#/ #NVC
     start http://localhost:6081/grid/console #Selenium
 }
-#Runs a command inside the container that starts the Selenium server (http://localhost:6081/)
-function startselenium
-{
-    Start-Job -Name selenium_job -ScriptBlock {
-        docker exec ubulenium java `
-        -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar `
-        -role hub;
-    }
-}
-
-#Starts a node in the selenium hub (http://localhost:6081/grid/console)
-function startnode
-{
-    Start-Job -Name node_job -ScriptBlock {
-        docker exec ubulenium bash -c 'java -Dwebdriver.chrome.driver="/home/user/Selenium/chromedriver" -jar /home/user/Selenium/selenium-server-standalone-3.141.59.jar -role webdriver -hub http://localhost:4444/grid/register -browser "browserName=chrome,platform=LINUX" -timeout 30 -browserTimeout 60 -log /home/user/Selenium/log.txt'
-    }
-}
-
-#Stops and removes the container named ubulenium, removes the image named ubuntu-selenium
-function stopremovedelete
-{
-    docker stop (docker ps -aqf "name=ubulenium");
-    docker rm (docker ps -aqf "name=ubulenium");
-    docker rmi $( docker images --format "{{.Repository}}:{{.Tag}}"|findstr "ubuntu-selenium" )
-}
 #######################################################
 
 if (docker ps | findstr "ubulenium")

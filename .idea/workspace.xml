@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="README.md edited style">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="gitignore ignoires log files created by selenium&#10;replaced my ip with localhost">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/starthub.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/startnode.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" afterDir="false" />
     </list>
     <list id="9a586f96-aad5-4a25-8818-bb359d1650c4" name="README edited" comment="" />
     <list id="458c4844-25db-4096-ab1c-972e5ab82443" name="Revert &quot;README edited&quot;" comment="Revert &quot;README edited&quot;&#10;&#10;This reverts commit f65017f1" />
@@ -233,7 +228,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -369,6 +363,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,6 +533,7 @@
       <workItem from="1561705576752" duration="11667000" />
       <workItem from="1562055871220" duration="1645000" />
       <workItem from="1562057557826" duration="120000" />
+      <workItem from="1562057712027" duration="139000" />
     </task>
     <task id="LOCAL-00001" summary="Common class created for common test code&#10;Browser drivers in a project folder (seleniumDrivers)">
       <created>1559898307691</created>
@@ -721,7 +717,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561723074443</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="gitignore ignoires log files created by selenium&#10;replaced my ip with localhost">
+      <created>1562057834929</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1562057834929</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -757,7 +760,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165137000" />
+    <option name="totallyTimeSpent" value="165276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,8 +773,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.17910448" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.18070363" />
       <window_info id="Structure" order="1" sideWeight="0.5005359" side_tool="true" weight="0.2457356" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -876,7 +880,8 @@
     <MESSAGE value="migrated from dockerhub to http://registrysf.sm2baleares.es:5000/" />
     <MESSAGE value="README.md: mvn clean install -DskipTests" />
     <MESSAGE value="README.md edited style" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md edited style" />
+    <MESSAGE value="gitignore ignoires log files created by selenium&#10;replaced my ip with localhost" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore ignoires log files created by selenium&#10;replaced my ip with localhost" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
