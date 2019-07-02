@@ -53,9 +53,11 @@ echo "Docker is ready"
 #Open the servers localhosts
 function openwebsites
 {
-    start http://localhost:6080/#/ #NVC
     start http://localhost:6081/grid/console #Selenium
+    start http://localhost:6080/#/ #NVC
 }
+
+
 #######################################################
 
 if (docker ps | findstr "ubulenium")
@@ -79,7 +81,7 @@ else
     $sele_path = "$( pwd )\src\main\resources\static\docker\mapped\Selenium:/home/user/Selenium"
 
     #Run ubuntu container
-    #NOTE: 'vx' is the last version (tag) avaliable (x is a number)
+    #NOTE: 'vx' is the last version (tag) avaliable
     Start-Job -Name run_job -ScriptBlock {
         docker run --privileged `
         -p 6080:80 -p 6081:4444 `

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="" />
+    <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="README.md: removed unused functions">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/SeleniumTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/SeleniumTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/formulari/BasicTest.java" beforeDir="false" />
+    </list>
     <list id="9a586f96-aad5-4a25-8818-bb359d1650c4" name="README edited" comment="" />
     <list id="458c4844-25db-4096-ab1c-972e5ab82443" name="Revert &quot;README edited&quot;" comment="Revert &quot;README edited&quot;&#10;&#10;This reverts commit f65017f1" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,23 +37,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="849">
-                <caret line="108" column="51" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
+              <first_editor relative-caret-position="2567">
+                <caret line="153" column="113" selection-start-line="153" selection-start-column="113" selection-end-line="153" selection-end-column="113" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/SeleniumTesting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1462">
+              <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -54,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="772">
+              <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -84,9 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&amp;lt;</find>
-      <find>run</find>
-      <find>ubulenium</find>
       <find>ubuntubernat</find>
       <find>ubuntu</find>
       <find>docker</find>
@@ -113,6 +151,10 @@
       <find>close</find>
       <find>v3</find>
       <find>127</find>
+      <find>start_h</find>
+      <find>scripts</find>
+      <find>ip</find>
+      <find>run</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -159,7 +201,6 @@
         <option value="$PROJECT_DIR$/src/test/java/java/common.java" />
         <option value="$PROJECT_DIR$/src/test/java/formulari/basicTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/all/common.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main/SeleniumTesting.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/HomeController.java" />
         <option value="$PROJECT_DIR$/src/test/java/all/prova.java" />
         <option value="$PROJECT_DIR$/ajuda_zalenium.txt" />
@@ -180,9 +221,10 @@
         <option value="$PROJECT_DIR$/src/test/java/other/GithubTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/nodeConfig.json" />
         <option value="$PROJECT_DIR$/src/test/java/all/Common.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/main/SeleniumTesting.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -209,12 +251,8 @@
       <select />
     </treeState>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="291" />
-    <option name="y" value="228" />
+    <option name="x" value="647" />
     <option name="width" value="974" />
     <option name="height" value="525" />
   </component>
@@ -339,14 +377,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="balearia" type="462c0819:PsiDirectoryNode" />
               <item name="dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="formulari" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
@@ -532,7 +562,7 @@
       <workItem from="1562055871220" duration="1645000" />
       <workItem from="1562057557826" duration="120000" />
       <workItem from="1562057712027" duration="139000" />
-      <workItem from="1562057883227" duration="279000" />
+      <workItem from="1562057883227" duration="6579000" />
     </task>
     <task id="LOCAL-00001" summary="Common class created for common test code&#10;Browser drivers in a project folder (seleniumDrivers)">
       <created>1559898307691</created>
@@ -734,15 +764,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GithubTest - 2019.06.27 at 11h 58m 18s.xml">
-      <configuration name="GithubTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GithubTest - 2019.06.27 at 11h 58m 33s.xml">
-      <configuration name="GithubTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GithubTest - 2019.06.27 at 11h 59m 53s.xml">
-      <configuration name="GithubTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GithubTest - 2019.06.27 at 12h 03m 03s.xml">
       <configuration name="GithubTest" configurationId="JUnit" />
     </history-entry>
@@ -764,9 +785,18 @@
     <history-entry file="GithubTest - 2019.06.28 at 12h 31m 46s.xml">
       <configuration name="GithubTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GithubTest - 2019.07.02 at 12h 39m 21s.xml">
+      <configuration name="GithubTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GithubTest - 2019.07.02 at 12h 40m 27s.xml">
+      <configuration name="GithubTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GithubTest - 2019.07.02 at 12h 42m 25s.xml">
+      <configuration name="GithubTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165555000" />
+    <option name="totallyTimeSpent" value="171855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,8 +809,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.18230277" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.18070363" />
       <window_info id="Structure" order="1" sideWeight="0.5005359" side_tool="true" weight="0.2457356" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -790,7 +821,7 @@
       <window_info id="Web" order="7" sideWeight="0.5005359" side_tool="true" weight="0.2457356" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3290461" />
-      <window_info anchor="bottom" auto_hide="true" id="Run" order="2" sideWeight="0.8070362" weight="0.39121115" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" order="2" sideWeight="0.8070362" weight="0.2454448" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -931,16 +962,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Downloads/Downloads_info.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/startselenium.sh" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/formulari/BasicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -949,36 +970,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/log.txt.lck" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/SeleniumTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/all/Common.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -998,6 +989,47 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/starthub.sh" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/Selenium_info.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/startnode.sh" />
+    <entry file="file://$PROJECT_DIR$/ubuntu-chromium-vnc.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/zalenium/ajuda_zalenium.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/log.tdfdxt.1.lck">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/formulari/BasicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/balearia/dev/HeaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1008,16 +1040,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ubuntu-chromium-vnc.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/zalenium/ajuda_zalenium.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/container_help.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/mapped/Selenium/log.tdfdxt.1.lck">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="772">
+          <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1031,20 +1057,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="849">
-            <caret line="108" column="51" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/SeleniumTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2567">
+            <caret line="153" column="113" selection-start-line="153" selection-start-column="113" selection-end-line="153" selection-end-column="113" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

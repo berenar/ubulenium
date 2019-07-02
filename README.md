@@ -1,6 +1,6 @@
 # Ubulenium
 
-Maven project for recording and running Selenium tests in an isolated environment.
+Maven project for **recording** and **running** Selenium tests in an isolated environment.
 
 ![image](ubulenium_screenshot.png)
 
@@ -10,20 +10,22 @@ Maven
 Springboot  
 JUnit  
 
-*Uses a customized docker container (Ubulenium)*
+*Uses a customized docker container (Ubulenium)*.
 
 ### Docker container
 
-You can find the image [here](http://registrysf.sm2baleares.es/)
+You can find the image [here](http://registrysf.sm2baleares.es/) (private repo).
 
 **Ubuntu** Desktop 18.04.2 LTS 64-bit  
 **Chromium** 73.0  
 **Firefox** 66.0.3  
-**Selenium IDE** (for recording tests)  
+**Selenium IDE** 3.11.0 (for recording tests)  
 **Selenium Server** 3.141.59 + Grid + Node (for running tests)  
 **VNC Server** (Graphical interface)  
 
-Ubuntu credentials: *user*, *password*
+#### Ubuntu credentials
+User: *user*  
+Password: *password*
 
 There are some directories mapped from the project to the container.  
 
@@ -37,7 +39,6 @@ There are also some ports mapped from the container to your host.
 | ---- | --------- | ---------- |
 | 6080 |    80     | VNC Server |
 | 6081 |   4444    |  Selenium  |
-| 6082 |   8080    | Springboot static resources |
 
 #### Make changes to the container
 You may want to modify the image, you can do it by:
@@ -85,21 +86,27 @@ Check that you have everything installed
 
 No need to install anything, just run the project with Maven.  
 ````
-    mvn clean install
+    mvn clean install -DskipTests
 ````
 > Docker may ask you permission to share drives because of the mapped directories.
 
-You may want to skip tests to run them manually
-````
-    mvn clean install -DskipTests
-````
+The first time the project compiles, tests need to be skipped because the Selenium Hub and Node need to be started 
+manually from inside the container.  Just open the two scripts located in the Ubuntu Desktop in this order:  
+1. start_hub.sh
+2. start_node.sh
+
+> You can start as many nodes as you want by running *start_node.sh* more times.
+
+Then you can 
+``
+    mvn clean install
+``
+ and test will be run. (You can also run them individually as showed [here](#run-tests) )
 > You can always right click the test class and 'Run <TEST_CLASS_NAME>'
 
 Check that the container is up and running  
 * [Here](http://localhost:6080) you should see the Ubuntu desktop.   
 * [Here](http://localhost:6081/grid/console) you should see a Selenium Grid Console and a node with Chrome and Firefox.  
-
-> **Note**: Your IP may be different.
 
 ## Usage
 Once the project has finished installing the Docker container you can begin to record and run tests.
@@ -124,12 +131,6 @@ erased, always save files in one of the mapped directories.
 > **Note**: Docker may have some temporary files but save what you want to keep.
 
 ### Run tests
-You need to start the Selenium server inside the container, simply by opening the two scripts in the ubuntu Desktop in this order:  
-
-1. start_hub.sh  
-2. start_node.sh  
-
-> You can start as many nodes as you want, running the *start_node.sh* script more times.
 
 You can run tests via a *RemoteWebDriver* from the Java project, inside **/src/test/java** create a new package and a class 
 that extends the *Common* class, where the *Webdriver* is initialized.  
@@ -150,7 +151,7 @@ The new class will override the *@Test* method and has to have this structure:
     }
 ````
 
-Now you just have to run the project to run all tests or Run a specific test running the Java class.  
+Now you just have to run the project to run all tests or Run a specific test running the desired Java class (test).  
 
 The Common.java class contains the @Before and @After methods, in the @Before you can choose how to execute the tests:
 * **Local Chrome** (Host machine)
