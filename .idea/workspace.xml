@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4e5ceea6-4c56-46fb-9ad3-2d3e754df3e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" afterDir="false" />
     </list>
     <list id="9a586f96-aad5-4a25-8818-bb359d1650c4" name="README edited" comment="" />
     <list id="458c4844-25db-4096-ab1c-972e5ab82443" name="Revert &quot;README edited&quot;" comment="Revert &quot;README edited&quot;&#10;&#10;This reverts commit f65017f1" />
@@ -38,8 +36,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1768">
-                <caret line="104" column="8" lean-forward="true" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+              <first_editor relative-caret-position="-1037">
+                <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -80,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/other/GithubTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="238">
               <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -101,7 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ubuntubernat</find>
       <find>ubuntu</find>
       <find>docker</find>
       <find>v1</find>
@@ -131,6 +128,7 @@
       <find>ip</find>
       <find>run</find>
       <find>bernat</find>
+      <find>ubu</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -145,7 +143,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="selenium-balearia" />
+        <entry key="$PROJECT_DIR$" value="dev-bernat-1container" />
       </map>
     </option>
   </component>
@@ -199,8 +197,8 @@
         <option value="$PROJECT_DIR$/src/test/java/all/Common.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/main/SeleniumTesting.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -535,7 +533,7 @@
       <workItem from="1562057883227" duration="7999000" />
       <workItem from="1562066455944" duration="1941000" />
       <workItem from="1562134831408" duration="2249000" />
-      <workItem from="1562221608764" duration="1626000" />
+      <workItem from="1562221608764" duration="2217000" />
     </task>
     <task id="LOCAL-00001" summary="Common class created for common test code&#10;Browser drivers in a project folder (seleniumDrivers)">
       <created>1559898307691</created>
@@ -747,7 +745,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562066017863</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="to github">
+      <created>1562223356530</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1562223356530</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -783,7 +788,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179091000" />
+    <option name="totallyTimeSpent" value="179682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -798,7 +803,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.18656716" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.18656716" />
       <window_info id="Structure" order="1" sideWeight="0.5005359" side_tool="true" weight="0.2457356" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -808,7 +813,7 @@
       <window_info id="Web" order="7" sideWeight="0.5005359" side_tool="true" weight="0.2457356" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" auto_hide="true" id="Run" order="2" sideWeight="0.8070362" visible="true" weight="0.073954985" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" order="2" sideWeight="0.8070362" weight="0.5669882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -879,7 +884,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Desktop and Downloads folders map correctly" />
     <MESSAGE value="added README.md&#10;prepareDocker.ps1 now also starts selenium server once the container is &#10;running" />
     <MESSAGE value="prepareDocker.ps1 runs docker if it's not running, when it has finished &#10;booting up, boots up the container, when it has finished setting up the &#10;container, starts Selenium server" />
     <MESSAGE value="prepareDocker.ps1 fixed" />
@@ -904,7 +908,8 @@
     <MESSAGE value="README.md: removed unused functions" />
     <MESSAGE value="index.html removed&#10;cleaned project" />
     <MESSAGE value="project ready to be pushed to dev" />
-    <option name="LAST_COMMIT_MESSAGE" value="project ready to be pushed to dev" />
+    <MESSAGE value="to github" />
+    <option name="LAST_COMMIT_MESSAGE" value="to github" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -982,10 +987,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1037">
+            <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1000,30 +1008,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/other/GithubTest.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/docker/prepareDocker.ps1">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1768">
-            <caret line="104" column="8" lean-forward="true" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/test/java/other/GithubTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

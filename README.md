@@ -57,9 +57,9 @@ docker commit <CONTAINER ID> ubuntu-selenium:<vx>
 
 Clone the project
 ```
-    git clone <THIS REPOSITORY URL>
-    cd .\selenium\
-    git checkout <DESIRED BRANCH>
+    git clone https://github.com/berenar/ubulenium.git
+    cd .\ubulenium\
+    git checkout berenar
 ```
 
 ### Prerequisites
