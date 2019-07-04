@@ -87,7 +87,7 @@ else
         -p 6080:80 -p 6081:4444 `
         -v $args[0] `
         -e TZ=Europe/Madrid `
-        --name ubulenium registrysf.sm2baleares.es:5000/ubuntu-selenium:v5 `
+        --name ubulenium bernattt/ubuntu-selenium:v3 `
     } -ArgumentList @($sele_path);
     #'docker run' output
     $run_output = Receive-Job -Name run_job 6>&1;

@@ -10,11 +10,11 @@ Maven
 Springboot  
 JUnit  
 
-*Uses a customized docker container (Ubulenium)*.
+*Uses a customized docker container (bernattt/ubuntu-selenium)*.
 
 ### Docker container
 
-You can find the image [here](http://registrysf.sm2baleares.es/) (private repo).
+You can find the image [here](https://cloud.docker.com/repository/docker/bernattt/ubuntu-selenium).
 
 **Ubuntu** Desktop 18.04.2 LTS 64-bit  
 **Chromium** 73.0  
@@ -46,24 +46,18 @@ You may want to modify the image, you can do it by:
 * Modifying whatever you need from ubuntu
 * Commit container changes
 ````
-docker commit <CONTAINER ID> registrysf.sm2baleares.es:5000/ubuntu-selenium:<vx>
+docker commit <CONTAINER ID> ubuntu-selenium:<vx>
 ````
 
 >'CONTAINER ID' is not the IMAGE ID.  
 'vx' is the version tag, where **x** is **n+1** being **n** the latest version available at that moment.  
 
-* Push changes to the repository 
-````
-docker push registrysf.sm2baleares.es:5000/ubuntu-selenium:<vx>
-````
-
-> Always push the image with a new version tag, otherwise the image will be overwritten
 
 ## Getting Started
 
 Clone the project
 ```
-    git clone https://gitbucket.sm2baleares.es/git/jordi.ripoll/selenium.git
+    git clone <THIS REPOSITORY URL>
     cd .\selenium\
     git checkout <DESIRED BRANCH>
 ```
