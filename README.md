@@ -1,6 +1,6 @@
 # Ubulenium
 
-Maven project for **recording** and **running** Selenium tests in an isolated environment.
+Java Springboot Maven project for **recording** and **running** Selenium tests in an isolated environment.
 
 ![image](ubulenium_screenshot.png)
 
